@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="4dp"
+        android:layout_margin="4dp"
+        card_view:cardElevation="1000dp">
+
+        <RelativeLayout
+            android:id="@+id/top_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/theatreName_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:textSize="20dp"
+                android:text="Theatre Details"
+                android:textStyle="bold"
+                android:padding="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/moviePic_iv"
+                android:textColor="@color/colorBlack" />
+
+            <TextView
+                android:id="@+id/theatrePrice_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:textSize="20dp"
+                android:text="Price : 250"
+                android:padding="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/theatreName_tv"
+                android:textColor="@color/colorBlack" />
+
+            <Button
+                android:id="@+id/timeOne_btn"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:background="@color/colorRedishPink"
+                android:layout_margin="15dp"
+                android:text="10 AM"
+                android:textSize="15dp"
+                android:layout_below="@+id/theatrePrice_tv" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

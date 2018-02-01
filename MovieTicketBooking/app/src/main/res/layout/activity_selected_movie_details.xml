@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <ImageView
+                   android:id="@+id/movieImageView"
+                   android:layout_width="100dp"
+                   android:layout_height="100dp"
+                   android:layout_marginStart="16dp"
+                   android:layout_marginTop="19dp"
+                   android:src="@drawable/padmaavat"
+                   android:scaleType="fitXY"
+                   android:layout_alignParentTop="true"
+                   android:layout_alignParentStart="true"
+                   android:layout_marginLeft="16dp"
+                   android:layout_alignParentLeft="true" />
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/movieNameView"
+                   android:layout_toEndOf="@+id/movieImageView"
+                   android:layout_marginStart="22dp"
+                   android:layout_alignTop="@+id/movieImageView"
+                   android:text="TextView"
+                   android:textAllCaps="true"
+                   android:textSize="25dp"
+                   android:textColor="@color/colorRedishPink"
+                   android:textStyle="bold"
+                   android:layout_toRightOf="@+id/movieImageView"
+                   android:layout_marginLeft="22dp" />
+           </RelativeLayout>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="18dp"
+               android:text="DESCRIPTION"
+               android:textSize="20dp"
+               android:textColor="@color/colorRedishPink"
+               android:textStyle="bold"/>
+
+           <TextView
+               android:id="@+id/movieDescriptionView"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textColor="@color/colorBlack"
+               android:text="description"
+               android:layout_marginTop="5dp"
+               android:textSize="15dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="4dp"
+            android:layout_margin="4dp"
+            card_view:cardElevation="2000dp">
+
+            <Button
+                android:id="@+id/rateMeBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Rate Me"
+                android:textSize="10dp"
+                android:textColor="@color/colorRedishPink"
+                android:background="@color/cardview_shadow_end_color"/>
+        </android.support.v7.widget.CardView>
+
+        <Button
+            android:id="@+id/movieBook_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorRedishPink"
+            android:text="BOOK"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="14dp"
+            android:layout_alignTop="@+id/movieDescriptionView" />
+    </RelativeLayout>
+
+               <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Reviews"
+               android:textSize="20dp"
+               android:layout_margin="10dp"
+               android:textStyle="bold"
+               android:textColor="@color/colorBlack"/>
+
+           <TextView
+               android:id="@+id/noReviews"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="No Reviews"
+               android:textSize="15dp"
+               android:gravity="center"
+               android:textColor="@color/colorBlack"
+               android:visibility="visible"/>
+
+    <ListView
+        android:id="@+id/reviewListView"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:visibility="gone"/>
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background">
+
+    <LinearLayout
+        android:id="@+id/noPurchase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:paddingTop="170dp"
+        android:paddingBottom="170dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You don't have any upcoming movies"
+            android:textColor="@color/colorWhite"
+            android:gravity="center"
+            android:textSize="26dp"/>
+
+        <Button
+            android:id="@+id/btnContinueShopping"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Continue Exploring"
+            android:textSize="20dp"
+            android:background="@color/colorRedishPink"
+            android:textColor="@color/colorWhite"
+            android:layout_margin="25dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bookedTicktes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Purchase History..."
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"/>
+
+        <ListView
+            android:id="@+id/cartList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>
+

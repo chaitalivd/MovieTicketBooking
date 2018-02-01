@@ -1,0 +1,212 @@
+﻿{
+  "message": "movie list fetched Successfully",
+  "movie_list": [
+    {
+      "movie_name": "Padmaavat",
+      "movie_desription": "Set in 1303 AD medieval India, Padmaavat is the story of honour, valour and obsession. Queen Padmavati is known for her exceptional beauty along with a strong sense of justice and is the wife of Maharawal Ratan Singh and pride of the Kingdom of Chittor, a prosperous kingdom in the north west of India.",
+      "picture": "/padmaavat",
+      "hall_locations": [
+        {
+          "theatre_name": "PVR: Forum Mall,Koramangala,Bangalore",
+          "ticket_price": "250",
+          "show_timings": "10AM",
+          "seats": [
+            {
+              "seat_no": "01",
+              "avalability": "yes"
+            },
+            {
+              "seat_no": "02",
+              "avalability": "yes"
+            },
+            {
+              "seat_no": "03",
+              "avalability": "yes"
+            },
+            {
+              "seat_no": "04",
+              "avalability": "yes"
+            },
+            {
+              "seat_no": "05",
+              "avalability": "yes"
+            },
+            {
+              "seat_no": "06",
+              "avalability": "yes"
+            }
+          ]
+        },
+        {
+          "theatre_name": "INOX: Central Mall,JP Nagar,Bangalore",
+          "ticket_price": "220",
+          "show_timings": "2PM",
+          "seats": [
+            {
+              "seat_no": "01",
+              "avalability": "yes"
+            },
+            {
+              "seat_no": "02",
+              "avalability": "yes"
+            },
+            {
+              "seat_no": "03",
+              "avalability": "yes"
+            },
+            {
+              "seat_no": "04",
+              "avalability": "yes"
+            },
+            {
+              "seat_no": "05",
+              "avalability": "yes"
+            },
+            {
+              "seat_no": "06",
+              "avalability": "yes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "movie_name": "Humble Politician Nograj",
+      "movie_desription": "The film is a socio-political satire based on the popular character, Politician Nograj created by Social Media Star, RJ and RCB Insider - Danish Sait. Nograj (played by Danish Sait), a narcissist and eccentric politician, who exploits the city and its resources, aspires to become an MLA in the upcoming elections. In his pursuit, he faces many oppositions and challenges, how he tackles them, forms the crux.",
+      "picture": "/humble_politician_nograj",
+      "hall_locations": [
+        {
+          "theatre_name": "PVR: Forum Mall,Koramangala,Bangalore",
+          "ticket_price": "250",
+          "show_timings": "2PM",
+          "seats": [
+            {
+              "seat_no": "01",
+              "avalability": "yes"
+            },
+            {
+              "seat_no": "02",
+              "avalability": "yes"
+            },
+            {
+              "seat_no": "03",
+              "avalability": "yes"
+            },
+            {
+              "seat_no": "04",
+              "avalability": "yes"
+            },
+            {
+              "seat_no": "05",
+              "avalability": "yes"
+            },
+            {
+              "seat_no": "06",
+              "avalability": "yes"
+            }
+          ]
+        },
+        {
+          "theatre_name": "INOX: Central Mall,JP Nagar,Bangalore",
+          "ticket_price": "220",
+          "show_timings": "10AM",
+          "seats": [
+            {
+              "seat_no": "01",
+              "avalability": "yes"
+            },
+            {
+              "seat_no": "02",
+              "avalability": "yes"
+            },
+            {
+              "seat_no": "03",
+              "avalability": "yes"
+            },
+            {
+              "seat_no": "04",
+              "avalability": "yes"
+            },
+            {
+              "seat_no": "05",
+              "avalability": "yes"
+            },
+            {
+              "seat_no": "06",
+              "avalability": "yes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "movie_name": "Jumanji: Welcome To The Jungle (3D)",
+      "movie_desription": "In the brand new adventure Jumanji: Welcome to the Jungle, the tables are turned as four teenagers in detention are sucked into the world of Jumanji. When they discover an old video game console with a game they've never heard of, they are immediately thrust into the game's jungle setting, into the bodies of their avatars. What they discover is that you don't just play Jumanji - Jumanji plays you. They'll have to go on the most dangerous adventure of their lives, or they'll be stuck in the game forever.",
+      "picture": "/jumanji",
+      "hall_locations": [
+        {
+          "theatre_name": "PVR: Forum Mall,Koramangala,Bangalore",
+          "ticket_price": "250",
+          "show_timings": "10AM",
+          "seats": [
+            {
+              "seat_no": "01",
+              "avalability": "yes"
+            },
+            {
+              "seat_no": "02",
+              "avalability": "yes"
+            },
+            {
+              "seat_no": "03",
+              "avalability": "yes"
+            },
+            {
+              "seat_no": "04",
+              "avalability": "yes"
+            },
+            {
+              "seat_no": "05",
+              "avalability": "yes"
+            },
+            {
+              "seat_no": "06",
+              "avalability": "yes"
+            }
+          ]
+        },
+        {
+          "theatre_name": "INOX: Central Mall,JP Nagar,Bangalore",
+          "ticket_price": "220",
+          "show_timings": "12PM",
+          "seats": [
+            {
+              "seat_no": "01",
+              "avalability": "yes"
+            },
+            {
+              "seat_no": "02",
+              "avalability": "yes"
+            },
+            {
+              "seat_no": "03",
+              "avalability": "yes"
+            },
+            {
+              "seat_no": "04",
+              "avalability": "yes"
+            },
+            {
+              "seat_no": "05",
+              "avalability": "yes"
+            },
+            {
+              "seat_no": "06",
+              "avalability": "yes"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
